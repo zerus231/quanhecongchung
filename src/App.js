@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import { Document, Page, pdfjs } from 'react-pdf';
+import file from './file.pdf';
+// Text layer for React-PDF.
+import 'react-pdf/dist/Page/TextLayer.css';
 
-function App() {
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  'pdfjs-dist/build/pdf.worker.min.mjs',
+  import.meta.url,
+).toString();
+
+const App = () => {
+  const [numPages, setNumPages] = useState(null);
+
+  const onDocumentLoadSuccess = ({ numPages }) => {
+    setNumPages(numPages);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Document
+        file={file}
+        onLoadSuccess={onDocumentLoadSuccess}
+      >
+        {Array.from({ length: numPages }, (_, index) => (
+          <Page key={index + "ádasd"} pageNumber={index + 1} />
+        ))}
+      </Document>
     </div>
   );
-}
+};
 
 export default App;
