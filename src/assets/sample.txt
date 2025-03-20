@@ -1,0 +1,35 @@
+1.Định nghĩa dữ liệu đặc tả:
+
+Theo Thông tư số 24/2011/TT-BTTTT, dữ liệu đặc tả là những thông tin mô tả các đặc tính của dữ liệu như:
+	•	Nội dung
+	•	Định dạng
+	•	Chất lượng
+	•	Điều kiện
+	•	Các đặc tính khác
+→ Ý nghĩa của dữ liệu đặc tả là giúp tạo thuận lợi cho quá trình tìm kiếm, truy cập, quản lý và lưu trữ dữ liệu.
+2 Thông tin đầu vào quản lý dữ liệu hồ sơ:
+
+Phần này liệt kê các trường thông tin chi tiết cấu thành dữ liệu đặc tả trong hồ sơ điện tử, bao gồm:
+-Mã hồ sơ (FileCode): Mã hồ sơ là thông tin quan trọng giúp định danh và phân loại hồ sơ, bao gồm:
+	•	Mã định danh của cơ quan, tổ chức lập danh mục hồ sơ.
+	•	Năm hình thành hồ sơ.
+	•	Số và ký hiệu hồ sơ.
+=> Mã hồ sơ giúp xác định duy nhất từng hồ sơ, tránh nhầm lẫn, chồng chéo thông tin. Việc này đặc biệt hữu ích khi lưu trữ và truy xuất hồ sơ điện tử trong các hệ thống lớn. Đồng thời, mã hóa thông tin này hỗ trợ tự động hóa trong quản lý hồ sơ, giúp tiết kiệm thời gian và nâng cao hiệu quả công việc.
+-Tiêu đề hồ sơ (Title): Tiêu đề hồ sơ là mô tả ngắn gọn nội dung chính của hồ sơ.
+=> Tiêu đề là yếu tố giúp người quản lý và người dùng nhận diện nội dung hồ sơ nhanh chóng. Một tiêu đề rõ ràng, chính xác giúp tăng cường khả năng tìm kiếm bằng từ khóa và cải thiện hiệu quả xử lý thông tin trong môi trường số.
+-Thời hạn bảo quản (Maintenance): Thời hạn bảo quản xác định khoảng thời gian hồ sơ phải được lưu trữ theo quy định pháp luật.
+=> Quy định này giúp phân loại hồ sơ theo giá trị sử dụng, đảm bảo hồ sơ quan trọng được lưu trữ lâu dài và hồ sơ không còn giá trị sẽ được tiêu hủy đúng quy trình. Việc xác định thời hạn bảo quản giúp giảm tải dung lượng lưu trữ, tối ưu hóa không gian số và đảm bảo tuân thủ pháp lý.
+-Chế độ sử dụng (Rights): Chế độ sử dụng quy định quyền hạn truy cập và khai thác hồ sơ (ví dụ: công khai, mật, tối mật).
+=> Việc phân quyền giúp kiểm soát bảo mật thông tin, đặc biệt với hồ sơ chứa dữ liệu nhạy cảm, đảm bảo chỉ những người có thẩm quyền mới được xem, chỉnh sửa hoặc sao chép, giúp giảm nguy cơ rò rỉ thông tin và bảo vệ quyền riêng tư.
+-Người lập hồ sơ (Creator): Thông tin này ghi nhận cá nhân hoặc bộ phận chịu trách nhiệm tạo lập hồ sơ.
+=> Việc xác định rõ người lập hồ sơ giúp truy cứu trách nhiệm khi xảy ra sai sót và tạo cơ sở cho quá trình kiểm tra, đánh giá chất lượng hồ sơ. Đồng thời, điều này còn hỗ trợ theo dõi lịch sử thay đổi của hồ sơ trong quá trình xử lý và lưu trữ.
+-Ngôn ngữ (Language): Xác định ngôn ngữ sử dụng trong hồ sơ.
+=> Việc quy định ngôn ngữ giúp chuẩn hóa nội dung và đảm bảo tính nhất quán khi hồ sơ được chia sẻ giữa các cơ quan có sử dụng ngôn ngữ khác nhau. Điều này đặc biệt quan trọng trong bối cảnh hội nhập quốc tế và chuyển đổi số.
+-Thời gian bắt đầu và kết thúc (StartDate – EndDate): Xác định mốc thời gian hồ sơ được tạo lập và kết thúc.
+=> Thông tin này hỗ trợ quản lý vòng đời hồ sơ, giúp cơ quan xác định thời điểm phát sinh và kết thúc của từng công việc. Việc ghi nhận thời gian chính xác giúp tăng tính pháp lý và hỗ trợ quá trình kiểm tra, đối chiếu khi cần thiết.
+-Tổng số văn bản và tổng số trang (TotalDoc – PageTotal): Thông tin này ghi nhận số lượng văn bản thành phần và tổng số trang trong hồ sơ.
+=> Việc kiểm soát số lượng tài liệu và trang giúp đảm bảo tính toàn vẹn của hồ sơ, tránh thất lạc hoặc thiếu hụt dữ liệu. Nó cũng giúp cho quá trình sao lưu, phục hồi và kiểm tra hồ sơ điện tử trở nên chính xác, đầy đủ hơn.
+-Ghi chú (Description): Phần ghi chú cung cấp thông tin bổ sung để làm rõ nội dung hoặc trạng thái của hồ sơ.
+=> Ghi chú giúp làm rõ các đặc điểm đặc thù hoặc yêu cầu xử lý đặc biệt của hồ sơ mà không thể hiện trong các trường thông tin chính. Điều này hỗ trợ tra cứu linh hoạt và nâng cao khả năng giải thích cho những nội dung phức tạp hoặc ngoại lệ.
+
+*Kết luận: Những thông tin này là căn cứ pháp lý và kỹ thuật giúp quản lý hồ sơ điện tử hiệu quả, đảm bảo tính toàn vẹn, truy xuất nhanh, bảo mật và đáp ứng yêu cầu của chính phủ điện tử. Việc áp dụng dữ liệu đặc tả đúng chuẩn không chỉ hỗ trợ hiện đại hóa công tác văn thư – lưu trữ, mà còn góp phần thúc đẩy chuyển đổi số và chính phủ điện tử một cách hiệu quả .

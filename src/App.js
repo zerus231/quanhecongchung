@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import sampleText from './text.txt'
+import sampleText from './assets/sample.txt';
+
 const App = () => {
   const [fileContent, setFileContent] = useState('');
 
