@@ -11,9 +11,11 @@ const App = () => {
       .catch((error) => console.error('Error loading text file:', error));
   }, [])
   return (
-    <pre style={{padding: 20}}>
-      {fileContent}
-    </pre>
+    <div style={{ width: 720, wordBreak: 'break-all' }}>
+      <pre style={{ padding: 20, fontSize: 20 }}>
+        {fileContent}
+      </pre>
+    </div>
   )
 };
 
